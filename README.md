@@ -14,6 +14,7 @@ Developed by:
     C++ Standard:   17
  
 To build the app:
+
     1. Pull the repository.
     2. Create a build directory (mkdir build).
     3. Move to the new build directory (cd build).
