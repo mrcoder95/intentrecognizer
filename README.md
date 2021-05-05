@@ -23,6 +23,7 @@ To build the app:
     6. To run the app (./Intent_Identifier).
     
 To Test the app:
+
     Requirements Google Test: 
         Modify the CMakelists.txt in test folder to include the google test library.
     
