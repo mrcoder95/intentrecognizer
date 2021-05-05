@@ -7,7 +7,6 @@ Application to classify the input message into one of the intent classes
     3. Check Calendar
     4. Get Fact
 
-
 Developed by:
 
     Copyright [2021] <Copyright to Mohamed Imran Peer Mohamed>
