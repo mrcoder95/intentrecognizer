@@ -18,6 +18,9 @@ class get_weather_city: public base {
 
     // Pattern to validate
     void insertPattern(void) {
+        /*
+            Checks for pattern containing keywords like rain, summer, or weather in the middle along with in keyword and ending with [?].
+        */
         pattern.push_back("[[:alpha:][:space:]]+[weather][[:alpha:][:space:]]* [in]+ [[:alpha:][:space:]]+[?]");
         pattern.push_back("[[:alpha:][:space:]]+[rain][[:alpha:][:space:]]* [in]+ [[:alpha:][:space:]]+[?]");
         pattern.push_back("[[:alpha:][:space:]]+[summer][[:alpha:][:space:]]* [in]+ [[:alpha:][:space:]]+[?]");

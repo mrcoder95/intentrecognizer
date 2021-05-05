@@ -18,6 +18,9 @@ class get_fact: public base {
 
     // Pattern to validate
     void insertPattern(void) {
+        /*
+            Checks for pattern containing fact in the middle and ending with [.].
+        */
         pattern.push_back("[[:alpha:][:space:]]*[fact][[:alpha:][:space:]]*[.]");
     }
 
