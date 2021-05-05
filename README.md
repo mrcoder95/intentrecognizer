@@ -1,6 +1,7 @@
 # Intent Recognizer
 
 Application to classify the input message into one of the intent classes
+
     1. Get Weather
     2. Get Weather City
     3. Check Calendar
@@ -8,6 +9,7 @@ Application to classify the input message into one of the intent classes
 
 
 Developed by:
+
     Copyright [2021] <Copyright to Mohamed Imran Peer Mohamed>
     Name:           Mohamed Imran Peer Mohamed
     Email:          mrmdimran95@gmail.com
