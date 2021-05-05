@@ -21,7 +21,7 @@ class get_fact: public base {
         /*
             Checks for pattern containing fact in the middle and ending with [.].
         */
-        pattern.push_back("[[:alpha:][:space:]]*[fact][[:alpha:][:space:]]*[.]");
+        pattern.push_back("[[:alpha:][:space:]]*(fact)[[:alpha:][:space:]]*[.]");
     }
 
     // Validating the string is matches the pattern

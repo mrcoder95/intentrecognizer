@@ -21,9 +21,9 @@ class get_weather: public base {
         /*
             Checks for pattern containing keywords like rain, summer, or weather in the middle and ending with [?].
         */
-        pattern.push_back("[[:alpha:][:space:]]+[rain] [[:alpha:][:space:]]+[?]");
-        pattern.push_back("[[:alpha:][:space:]]+[summer] [[:alpha:][:space:]]+[?]");
-        pattern.push_back("[[:alpha:][:space:]]+[weather] [[:alpha:][:space:]]+[?]");
+        pattern.push_back("[[:alpha:][:space:]]+(rain)[[:alpha:][:space:]]+[?]");
+        pattern.push_back("[[:alpha:][:space:]]+(summer)[[:alpha:][:space:]]+[?]");
+        pattern.push_back("[[:alpha:][:space:]]+(weather)[[:alpha:][:space:]]+[?]");
     }
 
     // Validating the string is matches the pattern

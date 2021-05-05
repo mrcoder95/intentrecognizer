@@ -19,9 +19,11 @@ class check_calendar: public base {
     // Pattern to validate
     void insertPattern(void) {
         /*
-            Checks for pattern containing 01:00 am / pm in the middle and ending with [?].
+            Checks for pattern containing 01:00 am / pm, appointment, or schedule keywords in the middle and ending with [?].
         */
         pattern.push_back("[[:alpha:][:space:]]+[[:digit:]]+[:][[:digit:]]+[am]*[pm]*[[:alpha:][:space:]]*[?]");
+        pattern.push_back("[[:alpha:][:space:]]+(appointment)[[:alpha:][:space:]]*[?]");
+        pattern.push_back("[[:alpha:][:space:]]+(schedule)[[:alpha:][:space:]]*[?]");
     }
 
     // Validating the string is matches the pattern
